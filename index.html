@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PetNest - Find Your Perfect Companion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="#" class="logo">
+                🐾 Pet<span>Nest</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#pets">Find a Pet</a>
+                <a href="#about">About</a>
+                <a href="#how-it-works">How It Works</a>
+            </nav>
+
+            <a href="#pets" class="nav-btn">
+                Adopt Now
+            </a>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="hero-tag">
+                    ❤️ Give a pet a loving home
+                </span>
+
+                <h1>
+                    Find Your New
+                    <span>Best Friend</span>
+                </h1>
+
+                <p>
+                    Browse loving pets waiting for their forever home.
+                    Filter by type, age and location to find the perfect
+                    companion for you.
+                </p>
+
+                <a href="#pets" class="primary-btn">
+                    Find Your Pet →
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+
+                <div class="hero-circle">
+                    🐕
+                </div>
+
+                <div class="floating-card card-one">
+                    ❤️ 1,200+ Pets Adopted
+                </div>
+
+                <div class="floating-card card-two">
+                    ⭐ Trusted Shelters
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <main id="pets" class="pets-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>EXPLORE</span>
+
+                <h2>
+                    Find Your Perfect Companion
+                </h2>
+
+                <p>
+                    Use the filters below to discover pets
+                    that match your lifestyle.
+                </p>
+
+            </div>
+
+            <div class="filter-box">
+
+                <div class="filter-header">
+
+                    <div>
+                        <h3>Find a Pet</h3>
+                        <p id="resultCount">
+                            Showing 0 pets
+                        </p>
+                    </div>
+
+                    <button id="resetBtn" class="reset-btn">
+                        Reset Filters
+                    </button>
+
+                </div>
+
+
+                <div class="filters">
+
+
+                    <div class="filter-group search-group">
+
+                        <label for="search">
+                            Search
+                        </label>
+
+                        <input
+                            type="text"
+                            id="search"
+                            placeholder="Search pet name..."
+                        >
+
+                    </div>
+
+                    <div class="filter-group">
+
+                        <label for="type">
+                            Pet Type
+                        </label>
+
+                        <select id="type">
+
+                            <option value="all">
+                                All Types
+                            </option>
+
+                            <option value="dog">
+                                Dogs
+                            </option>
+
+                            <option value="cat">
+                                Cats
+                            </option>
+
+                            <option value="rabbit">
+                                Rabbits
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="filter-group">
+
+                        <label for="age">
+                            Age
+                        </label>
+
+                        <select id="age">
+
+                            <option value="all">
+                                All Ages
+                            </option>
+
+                            <option value="young">
+                                Young
+                            </option>
+
+                            <option value="adult">
+                                Adult
+                            </option>
+
+                            <option value="senior">
+                                Senior
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="filter-group">
+
+                        <label for="location">
+                            Location
+                        </label>
+
+                        <select id="location">
+
+                            <option value="all">
+                                All Locations
+                            </option>
+
+                            <option value="hyderabad">
+                                Hyderabad
+                            </option>
+
+                            <option value="vijayawada">
+                                Vijayawada
+                            </option>
+
+                            <option value="visakhapatnam">
+                                Visakhapatnam
+                            </option>
+
+                            <option value="chennai">
+                                Chennai
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id="petGrid" class="pet-grid">
+            </div>
+
+
+            <div id="noResults" class="no-results">
+
+                <div>🐾</div>
+
+                <h3>
+                    No pets found
+                </h3>
+
+                <p>
+                    Try changing your filters to find more pets.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <section id="how-it-works" class="how-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span>HOW IT WORKS</span>
+
+                <h2>
+                    Adopt in 3 Simple Steps
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Find Your Pet
+                    </h3>
+
+                    <p>
+                        Browse our available pets and use
+                        filters to find your perfect match.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Submit Request
+                    </h3>
+
+                    <p>
+                        Fill out the adoption form with
+                        your details and preferences.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Meet Your Friend
+                    </h3>
+
+                    <p>
+                        Our shelter team will contact you
+                        to arrange the next steps.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="about" class="about-section">
+
+        <div class="container about-content">
+
+            <div class="about-icon">
+                🐾
+            </div>
+
+            <div>
+
+                <span>ABOUT PETNEST</span>
+
+                <h2>
+                    Every Pet Deserves
+                    a Loving Home
+                </h2>
+
+                <p>
+                    PetNest connects people with animals looking
+                    for loving families. Our goal is to make pet
+                    adoption simple, transparent and accessible.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="#" class="logo">
+                    🐾 Pet<span>Nest</span>
+                </a>
+
+                <p>
+                    Connecting pets with loving families.
+                </p>
+            </div>
+
+            <p>
+                © 2026 PetNest. Made with ❤️ for pets.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeModal" class="close-btn">
+                ×
+            </button>
+
+            <div class="modal-header">
+
+                <span class="modal-icon">
+                    🐾
+                </span>
+
+                <h2>
+                    Adoption Request
+                </h2>
+
+                <p id="selectedPet">
+                    Apply to adopt this pet.
+                </p>
+
+            </div>
+
+
+            <form id="adoptionForm">
+
+                <input
+                    type="hidden"
+                    id="petId"
+                >
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Why would you like to adopt?
+                    </label>
+
+                    <textarea
+                        id="message"
+                        rows="4"
+                        placeholder="Tell us about yourself..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-btn"
+                >
+                    Submit Adoption Request ❤️
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
